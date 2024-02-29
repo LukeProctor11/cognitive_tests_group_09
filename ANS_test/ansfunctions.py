@@ -255,7 +255,7 @@ def test_setup():
 
     return results_check.value
 
-def next_image(image_name, correct_ans):
+def next_image(image_name, correct_ans, i):
     '''
     Loops through all images of the test.
     Displays each image and waits for the user to click either the left or right button within
@@ -301,7 +301,7 @@ def next_image(image_name, correct_ans):
         return
     
     display(blank)
-    display(HTML(f"<span style='{style3}'>{time_out}NEXT QUESTION!</span>"))
+    display(HTML(f"<span style='{style3}'>{time_out} QUESTION {i+2}</span>"))
     time.sleep(1.5)
     
     return
@@ -318,7 +318,7 @@ def run_test():
         
     # loops test for all images in the list
     for i in range(images_num):
-        next_image(images_list[i], images_ans[i])        
+        next_image(images_list[i], images_ans[i], i)        
     
     display(HTML(f"<span style='{style3}'>FINISH!</span>"))
 
