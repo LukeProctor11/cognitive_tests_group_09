@@ -9,3 +9,9 @@ The user must determine whether the left or right had more dots within three sec
 Please ensure all 64 images are downloaded prior to carrying out this test
 
 Enjoy!
+
+Improvements from v1 based on feedback: 
+- added doc strings
+- question number now displayed
+- main code imported from plain python file, improving readability
+- issue with retrieval of data from the google form fixed
