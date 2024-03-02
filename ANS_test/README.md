@@ -10,6 +10,7 @@ Please ensure all 64 images are downloaded prior to carrying out this test
 
 Enjoy!
 
+
 Improvements from v1 based on feedback: 
 - added doc strings
 - question number now displayed
