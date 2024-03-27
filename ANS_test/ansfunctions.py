@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 import json 
 import pandas as pd
 
+def rgb_to_hex(rgb):
+    return '#%02x%02x%02x' % rgb
+
 def send_to_google_form(data_dict, form_url):
     '''
     Sends data from the results dictionary to the google form.
@@ -97,8 +100,7 @@ def wait_for_event(timeout=-1, interval=0.001, max_rate=20, allow_interupt=True)
 
             # update the progress bar over time while looping
             ans_time_bar.value = time.time() - start_wait
-            time.sleep(interval)
-    
+
     return event_info
 
 def register_btn_event(btn):
@@ -405,10 +407,9 @@ ans_time_bar = widgets.FloatProgress(value=0,
                                      max=3, 
                                      description='Loading:', 
                                      bar_style='info', 
-                                     style={'bar_color': '#ffff00'}, 
+                                     style={'bar_color': '#ffef00'}, 
                                      orientation='horizontal'
                                     )
-
 # used for the looping events
 event_info = {
     'type': '',
