@@ -6,9 +6,8 @@ The test score is calculated based on the speed and accuracy of the user. Once t
 
 
 
-Improvements from V1 -
-
-Addition of doc strings
-Consent for users to have their data used, the test will crash if not
-Store functions in another file
-Ensure the user inputs the correct code format at the start by giving them an error if it is wrong
+Improvements from V1:
+- Addition of doc strings
+- Consent for users to have their data used, the test will crash if not
+- Store functions in another file
+- Ensure the user inputs the correct code format at the start by giving them an error if it is wrong
