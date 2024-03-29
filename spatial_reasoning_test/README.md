@@ -1,3 +1,19 @@
+Welcome to the Spatial reasoning test.
+
+Candidates will be tasked to match a 3D and impossible 2D image together out of a selection of figures, testing the ablity to mentally rotate and manipulate figures mentally.
+
+Good luck!
+
+Please find attached: 
+* Spatial_test_v1.0.0.ipynb: Python notebook of version 1 of spatial reasoning test code.
+* Spatial_test_v2.0.0.ipynb: Python notebook for the final spatial reasoning test code. Draws on functions of spatialfunctions.py.
+* image_constructor_3d.ipynb: this is the code used to generate all 3D and 2D images used in the test.
+* .png images: images of spatial reasoning questions. The test code will call on this during the test.
+* spatialfunctions.py: file containing all code functions
+
+Ensure all files are downloaded for the test to work smoothly.
+
+
 Improvements in Version 2: overview
 
 Code structure:
